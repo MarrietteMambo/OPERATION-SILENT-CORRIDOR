@@ -51,3 +51,11 @@ This project documents a threat hunting investigation involving GREY VEIL activi
 - Detection Gaps
 - Recommendations
 - Flag-by-Flag Investigation
+
+- ## Report Sections
+
+- [Executive Summary](Executive-Summary.md)
+- [MITRE ATT&CK Mapping](MITRE-ATTACK-Mapping.md)
+- [Detection Gaps](Detection-Gaps.md)
+- [Recommendations](Recommendations.md)
+- [Flag-by-Flag Investigation](Flags/README.md)
