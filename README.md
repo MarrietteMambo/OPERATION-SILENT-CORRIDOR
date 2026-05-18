@@ -47,7 +47,7 @@ This project documents a threat hunting investigation involving GREY VEIL activi
 - DeviceNetworkEvents
 
 ## Investigation Sections
-- MITRE ATT&CK Mapping
+[MITRE ATT&CK Mapping](MITRE-ATTACK-Mapping)
 - Detection Gaps
 - Recommendations
 - Flag-by-Flag Investigation
