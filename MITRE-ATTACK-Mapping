@@ -1,1 +1,9 @@
+# MITRE ATT&CK Mapping
 
+| Tactic | Technique | Evidence |
+|---|---|---|
+| Initial Access | External Remote Services | VPN access using s.brandt |
+| Credential Access | OS Credential Dumping | LSASS, SAM, NTDS activity |
+| Lateral Movement | WMI | WMIC remote execution |
+| Persistence | PortProxy | netsh interface portproxy |
+| Exfiltration | Web Service | Invoke-WebRequest POST |
