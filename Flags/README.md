@@ -11,12 +11,8 @@
 ### What Do They Know?
 - [Flag 07 – Initial Process](Flag-07.md)
 - [Flag 08 – Directory Enumeration](Flag-08.md)
-
-### Persistence & Collection
-- [Flag 22 – PortProxy Persistence](Flags/Flag-22-PortProxy-Persistence.md)
-- [Flag 25 – Targeted Directory](Flags/Flag-25-Targeted-Directory.md)
-
-### Exfiltration & Cleanup
-- [Flag 29 – Outbound Transfer](Flags/Flag-29-Outbound-Transfer.md)
-- [Flag 32 – First Cleanup Action](Flags/Flag-32-First-Cleanup-Action.md)
-- [Flag 34 – Missed Telemetry](Flags/Flag-34-Missed-Telemetry.md)
+- [Flag 09 – Network Reconnaissance](Flag-09.md)
+- [Flag 10 – First Credential Activity](Flag-10.md)
+- [Flag 11 – Credential Dump Outcome](Flag-11.md)
+- [Flag 12 – Stored Credential Source](Flag-12.md)
+- [Flag 13 –  Saved Credentials](Flag-13.md)
