@@ -1,7 +1,7 @@
 # Flag-by-Flag Investigation
 
 ### Initial Access & Reconnaissance
-- [Flag 01 – Custom Log Table](Flags/Flags-02.md)
+- [Flag 01 – Custom Log Table](Flags/Flags-01.md)
 - [Flag 02 – Account Profiling](Flags/Flag-02-Account-Profiling.md)
 - [Flag 03 – Connection Footprint](Flags/Flag-03-Connection-Footprint.md)
 - [Flag 04 – Source Address Inventory](Flags/Flag-04-Source-Address-Inventory.md)
