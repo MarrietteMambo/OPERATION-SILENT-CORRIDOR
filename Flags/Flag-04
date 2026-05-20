@@ -1,10 +1,10 @@
-# Flag 04 – Source Address Inventory
+# Flag 04 – Connection Footprint
 
 ## Question
-HUNT LEAD: "Need them for threat intel. Pull every distinct source for this account."
+HUNT LEAD: "That IP failed then succeeded. Scope the full picture for this account across the window."
 
 ## Answer
-45.153.160.88, 88.153.72.14, 91.234.33.126, and 185.220.101.34. 
+4
 
 ## Finding
-A review of remote access activity associated with the suspicious account identified multiple distinct external source IP addresses used during the attack window. The identified public IPv4 addresses were 45.153.160.88, 88.153.72.14, 91.234.33.126, and 185.220.101.34. Internal private addresses in the 10.x.x.x range were excluded because they represent internal network infrastructure rather than external threat actor infrastructure.
+The suspicious IP address 185.220.101.34 generated four VPN session events during the attack window, consisting of two Tunnel Up and two Tunnel Down events. This confirmed that the account associated with the IP successfully established multiple SSL VPN sessions after earlier failed authentication attempts.
