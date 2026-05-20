@@ -1,16 +1,16 @@
 # Flag-by-Flag Investigation
 
-### Initial Access & Reconnaissance
+### Mission Brief
 - [Flag 01 – Silent Corridor Environment Access](Flags-01.md)
+### Who Got In?
 - [Flag 02 – Suspicious Account](Flags-02.md)
 - [Flag 03 – Origin of Failed Auth](Flags-03.md)
-- [Flag 04 – Source Address Inventory](Flags/Flag-04-Source-Address-Inventory.md)
-- [Flag 05 – Internal Landing Point](Flags/Flag-05-Internal-Landing-Point.md)
-
-### Credential Access & Lateral Movement
-- [Flag 09 – First Credential Activity](Flags/Flag-09-First-Credential-Activity.md)
-- [Flag 13 – First Lateral Pivot](Flags/Flag-13-First-Lateral-Pivot.md)
-- [Flag 15 – Cross-Host Spawning](Flags/Flag-15-Cross-Host-Spawning.md)
+- [Flag 04 – Connection Footprint](Flag-04.md)
+- [Flag 05 – Source Address Inventory](Flag-05.md)
+- [Flag 06 – Internal Landing Point](Flag-06.md)
+### What Do They Know?
+- [Flag 07 – Initial Process](Flag-07.md)
+- [Flag 08 – Directory Enumeration](Flag-08.md)
 
 ### Persistence & Collection
 - [Flag 22 – PortProxy Persistence](Flags/Flag-22-PortProxy-Persistence.md)
