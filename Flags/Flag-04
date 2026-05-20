@@ -1,0 +1,10 @@
+# Flag 04 – Source Address Inventory
+
+## Question
+HUNT LEAD: "Need them for threat intel. Pull every distinct source for this account."
+
+## Answer
+45.153.160.88, 88.153.72.14, 91.234.33.126, and 185.220.101.34. 
+
+## Finding
+A review of remote access activity associated with the suspicious account identified multiple distinct external source IP addresses used during the attack window. The identified public IPv4 addresses were 45.153.160.88, 88.153.72.14, 91.234.33.126, and 185.220.101.34. Internal private addresses in the 10.x.x.x range were excluded because they represent internal network infrastructure rather than external threat actor infrastructure.
