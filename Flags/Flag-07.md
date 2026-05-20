@@ -6,5 +6,9 @@ HUNT LEAD: "Pivot to the beachhead. What's the first non-routine process under t
 ## Answer
 systeminfo.exe/cmd.exe
 
+## Screenshot
+
+![Flag 07 Initial Process](../Screenshots/Flag-07-Initial-Process.png)
+
 ## Finding
 Investigation of process execution activity on WS-ENG04 identified systeminfo.exe launched by cmd.exe as the first non-routine process executed under the suspicious user session. This behavior is consistent with host reconnaissance activity commonly performed by attackers following initial access to gather operating system, patching, and system configuration details.
