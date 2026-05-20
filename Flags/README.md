@@ -3,7 +3,7 @@
 ### Initial Access & Reconnaissance
 - [Flag 01 – Silent Corridor Environment Access](Flags-01.md)
 - [Flag 02 – Suspicious Account](Flags-02.md)
-- [Flag 03 – Connection Footprint](Flags/Flag-03-Connection-Footprint.md)
+- [Flag 03 – Origin of Failed Auth](Flags-03.md)
 - [Flag 04 – Source Address Inventory](Flags/Flag-04-Source-Address-Inventory.md)
 - [Flag 05 – Internal Landing Point](Flags/Flag-05-Internal-Landing-Point.md)
 
