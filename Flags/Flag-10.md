@@ -7,7 +7,7 @@ HUNT LEAD: "Parallel track. That VPN account alone isn't getting them to those s
 tasklist /fi "imagename eq lsass.exe" 
 
 ## Screenshot
-![Flag 04 Connection Footprint](../Screenshots/Flag-10-First-Credential-Activity.png)
+![Flag 10 First Credential](../Screenshots/Flag-10-First-Credential-Activity.png)
 
 
 ## Finding
