@@ -7,5 +7,9 @@ Where did the attacker actually land?"
 ## Answer
 WS-ENG04
 
+## Screenshot
+
+![Exfiltration Evidence](../Screenshots/flag29-exfiltration.png)
+
 ## Finding
 Analysis of remote access activity identified a suspicious user account authenticating from multiple external IP addresses, including three associated with anonymization infrastructure and one residential IP address. Investigation of the associated VPN activity showed the initial access path terminated on the internal engineering workstation WS-ENG04..
