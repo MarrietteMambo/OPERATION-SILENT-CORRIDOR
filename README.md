@@ -47,7 +47,8 @@ This project documents a threat hunting investigation involving GREY VEIL activi
 - DeviceNetworkEvents
 
 ## Investigation Sections
-[MITRE ATT&CK Mapping](MITRE/README.md)
+- [Flag-by-Flag Investigation](Flags/README.md)
+- [MITRE ATT&CK Mapping](MITRE/README.md)
 - [Detection Gaps](Detection-Gaps.md)
 - [Recommendations](Recommendations.md)
-- [Flag-by-Flag Investigation](Flags/README.md)
+
