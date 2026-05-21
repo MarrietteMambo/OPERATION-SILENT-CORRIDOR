@@ -27,9 +27,11 @@
 - [Flag 20 – Database File Access](Flag-20.md)
 - [Flag 21– Spawning Source](Flag-21.md)
 - [Flag 22 – SRDP Scope](Flag-22.md)
+  ### Can They Come Back?
 - [Flag 23 – Network Configuration Changet](Flag-23.md)
 - [Flag 24 – Configuration Storage](Flag-24.md)
 - [Flag 25 – Matching Configuration on DC](Flag-25.md)
+  ### What Left the Network?
 - [Flag 26 – Targeted Directoryt](Flag-26.md)
 - [Flag 27 – Packaged Output](Flag-27.md)
 - [Flag 28 – Compression Method](Flag-28.md)
@@ -37,10 +39,12 @@
 - [Flag 30 – Outbound Transfer](Flag-30.md)
 - [Flag 31 – External Destination](Flag-31.md)
 - [Flag 32– Reentry Window](Flag-32.md)
+  ### What Did They Cover?
 - [Flag 33 – First Cleanup Action](Flag-33.md)
 - [Flag 34 – Clearing Method Analysis](Flag-34.md)
 - [Flag 35 – Surviving Log Sourcet](Flag-35.md)
 - [Flag 36 – Exfiltration Confidence Call](Flag-36.md)
 - [Flag 37 – DC Staging Cleanup](Flag-37.md)
+  ### Closeout
 - [Flag 38 – CISO Brief](Flag-38.md)
 
