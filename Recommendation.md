@@ -162,9 +162,6 @@ Create Microsoft Sentinel analytics for:
 
 ---
 
-# Summary Conclusions / Lessons Learned
-
-This investigation demonstrated how attackers can successfully chain together credential theft, reconnaissance, lateral movement, persistence, and exfiltration techniques while attempting to remove evidence through anti-forensics actions. Although Windows Security logs were cleared, Sysmon telemetry and centralized logging preserved critical visibility and enabled complete reconstruction of the attack lifecycle. The hunt highlighted the importance of layered detection strategies, behavioral analytics, and monitoring of legitimate administrative tools abused for malicious purposes. Future improvements should focus on strengthening identity protection, detecting persistence mechanisms, and improving response automation to reduce dwell time and prevent successful data theft.
 
 ---
 
