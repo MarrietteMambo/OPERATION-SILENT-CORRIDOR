@@ -98,6 +98,4 @@ across multiple systems and later removed staging artifacts.
 
 **Impact:** Credential theft and Active Directory collection continued successfully.
 
-## Summary
 
-The investigation demonstrated that centralized telemetry and Sysmon visibility enabled reconstruction of attacker activity. However, improvements are needed in behavioral analytics, persistence monitoring, DLP controls, remote execution detection, and automated response capabilities to reduce risk from future attacks.
