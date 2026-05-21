@@ -86,6 +86,86 @@ rmdir /s /q
 
 **Benefit:** Provides early warning of attempts to destroy evidence.
 
+# Containment Actions
+
+Immediate containment actions should focus on stopping attacker activity and preventing additional compromise across the environment.
+
+- Isolate `WS-ENG04`, `SRV-DC01`, and `SRV-FILES02` from the network
+- Disable compromised user accounts `s.brandt` and `m.richter`
+- Remove all unauthorized `netsh interface portproxy` configurations
+- Block outbound communication to `cdn-telemetry.cloud-endpoint.net`
+- Terminate suspicious WMIC and PowerShell activity
+- Reset credentials and invalidate active VPN sessions
+- Identify and remove persistence mechanisms across affected systems
+
+**Objective:** Prevent further attacker movement and stop ongoing access.
+
+---
+
+# Eradication / Recovery
+
+Following containment, actions should focus on eliminating attacker artifacts and restoring trusted system operations.
+
+- Remove the malicious `C:\Windows\Temp\McAfee_Logs` staging directory
+- Delete unauthorized PortProxy registry entries
+- Perform malware and persistence scans on all affected systems
+- Rotate privileged account credentials and service account passwords
+- Rebuild or reimage heavily compromised systems if required
+- Validate system integrity before reconnecting systems to production
+- Review VPN configurations and enforce stronger authentication controls
+
+**Objective:** Remove attacker presence and safely restore business operations.
+
+---
+
+# Security Hardening Recommendations
+
+Long-term improvements should reduce exposure to credential theft, persistence, and exfiltration techniques observed during the hunt.
+
+### Identity and Access Security
+
+- Enforce Multi-Factor Authentication (MFA) for VPN and privileged accounts
+- Implement Conditional Access policies
+- Enable Microsoft Defender Credential Guard
+- Restrict local administrator privileges
+
+### Endpoint Protection
+
+- Enable Attack Surface Reduction (ASR) rules
+- Restrict LSASS access
+- Alert on:
+  - `cmdkey`
+  - `reg save`
+  - `ntdsutil`
+  - `certutil`
+  - `Compress-Archive`
+
+### Detection Engineering
+
+Create Microsoft Sentinel analytics for:
+
+- `wmic process call create`
+- `netsh interface portproxy`
+- `wevtutil cl Security`
+- `Invoke-WebRequest`
+- Base64 encoding activity
+- unusual outbound HTTP POST traffic
+
+### Logging Improvements
+
+- Continue centralized Sysmon collection
+- Increase log retention periods
+- Protect telemetry against local deletion
+- Monitor registry persistence modifications
+
+**Objective:** Reduce future attack opportunities and improve visibility.
+
+---
+
+# Summary Conclusions / Lessons Learned
+
+This investigation demonstrated how attackers can successfully chain together credential theft, reconnaissance, lateral movement, persistence, and exfiltration techniques while attempting to remove evidence through anti-forensics actions. Although Windows Security logs were cleared, Sysmon telemetry and centralized logging preserved critical visibility and enabled complete reconstruction of the attack lifecycle. The hunt highlighted the importance of layered detection strategies, behavioral analytics, and monitoring of legitimate administrative tools abused for malicious purposes. Future improvements should focus on strengthening identity protection, detecting persistence mechanisms, and improving response automation to reduce dwell time and prevent successful data theft.
+
 ---
 
 ## 7. Expand Centralized Logging
