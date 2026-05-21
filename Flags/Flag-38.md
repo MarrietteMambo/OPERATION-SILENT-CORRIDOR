@@ -3,11 +3,11 @@
 ## Question
 HUNT LEAD: "Hunt's over. Hofmann needs your findings before the board meeting.
 Your brief must name:
-•	Both compromised user accounts
-•	The compromised hosts (at least one by name)
-•	The data targeted and how it left the network
-•	The persistence mechanism that survives credential resets
-•	One immediate containment action
+-	Both compromised user accounts
+-	The compromised hosts (at least one by name)
+-	The data targeted and how it left the network
+-	The persistence mechanism that survives credential resets
+-	One immediate containment action
 Write it up."
 
 ## Answer
