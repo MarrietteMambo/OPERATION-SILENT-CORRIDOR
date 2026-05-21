@@ -14,8 +14,6 @@ This threat hunt investigated suspected GREY VEIL activity targeting Haldric Aer
 - Map attacker activity to MITRE ATT&CK techniques  
 - Identify detection gaps and provide security recommendations
 
-  # GREY VEIL Threat Hunt Investigation
-
 ## Overview
 This project documents a threat hunting investigation involving GREY VEIL activity against Haldric Aerospace. The investigation used Microsoft Sentinel, KQL, Sysmon, Microsoft Defender for Endpoint telemetry, and FortiGate VPN logs.
 
@@ -49,6 +47,7 @@ This project documents a threat hunting investigation involving GREY VEIL activi
 ## Investigation Sections
 - [Flag-by-Flag Investigation](Flags/README.md)
 - [MITRE ATT&CK Mapping](MITRE/README.md)
+- [NIST-800-61-Application](
 - [Detection Gaps](Detection-Gaps.md)
 - [Recommendations](Recommendations.md)
 
