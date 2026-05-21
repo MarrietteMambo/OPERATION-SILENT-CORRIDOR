@@ -1,4 +1,4 @@
-# Flag 17 – New Filesystem Activit
+# Flag 17 – New Filesystem Activity
 
 ## Question
 HUNT LEAD: "Check the target host directly. Anything new on the filesystem that wasn't there before?
