@@ -12,7 +12,15 @@
 - [Flag 07 – Initial Process](Flag-07.md)
 - [Flag 08 – Directory Enumeration](Flag-08.md)
 - [Flag 09 – Network Reconnaissance](Flag-09.md)
+  ### How Did They Escalate?
 - [Flag 10 – First Credential Activity](Flag-10.md)
 - [Flag 11 – Credential Dump Outcome](Flag-11.md)
 - [Flag 12 – Stored Credential Source](Flag-12.md)
 - [Flag 13 –  Saved Credentials](Flag-13.md)
+  ### How Far Did They Get?
+- [Flag 14 – First Lateral Pivot](Flag-14.md)
+- [Flag 15– New Account Observed](Flag-15.md)
+- [Flag 16 – Cross-Host Spawningt](Flag-16.md)
+- [Flag 17– New Filesystem Activity](Flag-17.md)
+- [Flag 18 – Critical File](Flag-18.md)
+  
