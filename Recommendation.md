@@ -86,36 +86,6 @@ rmdir /s /q
 
 **Benefit:** Provides early warning of attempts to destroy evidence.
 
-# Containment Actions
-
-Immediate containment actions should focus on stopping attacker activity and preventing additional compromise across the environment.
-
-- Isolate `WS-ENG04`, `SRV-DC01`, and `SRV-FILES02` from the network
-- Disable compromised user accounts `s.brandt` and `m.richter`
-- Remove all unauthorized `netsh interface portproxy` configurations
-- Block outbound communication to `cdn-telemetry.cloud-endpoint.net`
-- Terminate suspicious WMIC and PowerShell activity
-- Reset credentials and invalidate active VPN sessions
-- Identify and remove persistence mechanisms across affected systems
-
-**Objective:** Prevent further attacker movement and stop ongoing access.
-
----
-
-# Eradication / Recovery
-
-Following containment, actions should focus on eliminating attacker artifacts and restoring trusted system operations.
-
-- Remove the malicious `C:\Windows\Temp\McAfee_Logs` staging directory
-- Delete unauthorized PortProxy registry entries
-- Perform malware and persistence scans on all affected systems
-- Rotate privileged account credentials and service account passwords
-- Rebuild or reimage heavily compromised systems if required
-- Validate system integrity before reconnecting systems to production
-- Review VPN configurations and enforce stronger authentication controls
-
-**Objective:** Remove attacker presence and safely restore business operations.
-
 ---
 
 # Security Hardening Recommendations
@@ -161,15 +131,6 @@ Create Microsoft Sentinel analytics for:
 **Objective:** Reduce future attack opportunities and improve visibility.
 
 ---
-
-
----
-
-## 7. Expand Centralized Logging
-
-Continue forwarding Sysmon, Microsoft Defender, and VPN telemetry into Microsoft Sentinel. Increase retention periods and ensure logs are protected from local modification.
-
-**Benefit:** Preserves forensic evidence even when attackers clear local event logs.
 
 ## Summary
 
