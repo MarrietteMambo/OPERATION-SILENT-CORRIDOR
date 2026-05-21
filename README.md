@@ -48,7 +48,7 @@ This project documents a threat hunting investigation involving GREY VEIL activi
 - [Flag-by-Flag Investigation](Flags/README.md)
 - [MITRE ATT&CK Mapping](MITRE.md)
 - [NIST-800-61-Application](NIST-800-61-Application.md)
-- [Detection Gaps](Detection-Gaps/README.md)
+- [Detection Gaps](Detection-Gaps.md)
 - [Recommendations](Recommendation.md)
 
 ## Lessons Learned
